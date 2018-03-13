@@ -9,7 +9,7 @@ public class PlayerJump : MonoBehaviour
 	[SerializeField]
 	private AudioClip jumpClip;
 
-	private float jumpForce = 12f, forwardForce = 0f;
+	private float jumpForce = 15f, forwardForce = 0f;
 
 	private Rigidbody2D myBody;
 
