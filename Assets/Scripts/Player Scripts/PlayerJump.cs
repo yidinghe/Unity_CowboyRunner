@@ -39,7 +39,7 @@ public class PlayerJump : MonoBehaviour
 		if (canJump) {
 			canJump = false;
 
-			//AudioSource.PlayClipAtPoint (jumpClip, transform.position);
+			AudioSource.PlayClipAtPoint (jumpClip, transform.position);
 
 			if (transform.position.x < 0) {
 				forwardForce = 1f;
